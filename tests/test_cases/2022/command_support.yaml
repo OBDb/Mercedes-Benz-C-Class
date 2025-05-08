@@ -47,3 +47,13 @@ supported_commands_by_ecu:
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
   - 01A6:ODO
+unsupported_commands_by_ecu:
+  7E2:
+  - 7E2.7EA.222001
+  - 7E2.7EA.222002
+  DB33:
+  - DB33.010D
+  - DB33.012F
+  - DB33.0131
+  - DB33.015B
+  - DB33.01A6
