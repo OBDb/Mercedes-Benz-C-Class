@@ -1,0 +1,5 @@
+command_id: 7E0.0149
+test_cases:
+- expected_values:
+    APP_D: 5.88235
+  response: 7E80341490F
