@@ -1,0 +1,28 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class"
+
+generations:
+  - name: "First Generation (W202)"
+    start_year: 1992
+    end_year: 2001
+    description: "Introduced in May 1993 as a replacement for the 190 (W201). Manufacturing began in August 1992. Available in sedan and station wagon configurations."
+
+  - name: "Second Generation (W203)"
+    start_year: 1999
+    end_year: 2010
+    description: "Introduced in March 2000 with production beginning in March 1999. Available in sedan, station wagon, and SportCoupé (liftback) configurations. Received new diesel technology with common rail injection."
+
+  - name: "Third Generation (W204)"
+    start_year: 2006
+    end_year: 2015
+    description: "Launched in 2007 with production commencing in 2006. Featured extended wheelbase and tracks, stiffer body inspired by the W221 S-Class. Received a facelift in 2011 for the 2012 model year. Available in sedan, station wagon, and coupé configurations."
+
+  - name: "Fourth Generation (W205)"
+    start_year: 2014
+    end_year: 2021
+    description: "Launched at the 2014 North American International Auto Show with production starting February 4, 2014. Featured lightweight construction using aluminum and high-strength steel, resulting in approximately 100 kg weight reduction. Available in sedan, station wagon, coupé, and cabriolet configurations. Mid-life facelift debuted at 2018 Geneva Motor Show."
+
+  - name: "Fifth Generation (W206)"
+    start_year: 2021
+    end_year: 2025
+    description: "Unveiled on February 23, 2021. All W206 models equipped with four-cylinder engines coupled with integrated starter generator (15 kW electric motor) and 48-volt electrical system. Available in sedan, long-wheelbase (V206 in China), and station wagon configurations. C-Class All-Terrain (X206) crossover-inspired estate model released in 2021 with SUV styling, 40 mm increased ride height, 4MATIC AWD, and additional drive modes."
