@@ -1,0 +1,45 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class"
+
+generations:
+  - name: "First Generation (W202)"
+    start_year: 1993
+    end_year: 2000
+    description: "The first generation W202 C-Class was introduced in May 1993 as a replacement for the W201 190 range. Styling themes were carried over from the previous W201 series with a smoother and rounder design, featuring styling cues from the W124 E-Class, W140 S-Class, and R129 SL-Class."
+    platform: "W202"
+
+  - name: "Second Generation (W203)"
+    start_year: 2000
+    end_year: 2007
+    description: "The second generation W203 C-Class was introduced in March 2000. It featured a more aerodynamic design and modern interior. The range included inline-four and V6 petrol engines with inline-four and five diesels. Post-2005, the number designations were no longer equivalent to engine displacement."
+    platform: "W203"
+
+  - name: "Third Generation (W204)"
+    start_year: 2007
+    end_year: 2011
+    description: "The third generation W204 C-Class was introduced on January 18, 2007 and displayed at the 2007 Geneva Auto Show. Sales began March 31, 2007. The new model featured an extended wheelbase, stiffer body shell, and design inspired by the W221 S-Class. This is the pre-facelift version."
+    platform: "W204"
+
+  - name: "Third Generation Facelift (W204)"
+    start_year: 2011
+    end_year: 2015
+    description: "The W204 received a facelift in 2011 for the 2012 model year including new LED taillights, revised dashboard and instrument cluster layout, and revised front fascia and headlights. The platform continued into 2015 with the C-Class coupe."
+    platform: "W204"
+
+  - name: "Fourth Generation (W205)"
+    start_year: 2014
+    end_year: 2018
+    description: "The fourth generation W205 C-Class was launched at the 2014 North American International Auto Show. The new structure was significantly lighter using aluminium and high-strength steel extensively throughout the body. Spawned four bodystyles: sedan, wagon, coupe, and cabriolet. This is the pre-facelift version."
+    platform: "W205"
+
+  - name: "Fourth Generation Facelift (W205)"
+    start_year: 2018
+    end_year: 2021
+    description: "The W205 received a mid-life update at the 2018 Geneva Motor Show, including exterior changes and new engines. Production continued alongside the W206 until 2021."
+    platform: "W205"
+
+  - name: "Fifth Generation (W206)"
+    start_year: 2021
+    end_year: null
+    description: "The fifth generation W206 C-Class was unveiled on February 23, 2021. For the first time, all W206 models are equipped with four-cylinder engines coupled with an integrated starter generator and 48-volt electrical system. In China, a long-wheelbase version (V206) is offered. The C-Class All-Terrain (X206) was also introduced."
+    platform: "W206"
