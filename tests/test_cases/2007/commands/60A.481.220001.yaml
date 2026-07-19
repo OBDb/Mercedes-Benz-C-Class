@@ -1,0 +1,5 @@
+command_id: 60A.481.220001
+test_cases:
+- expected_values:
+    C_CLASS_ODO: 213607
+  response: "48106620001034267"

@@ -1,4 +1,7 @@
 { "commands": [
-
+{ "hdr": "60A", "rax": "481", "cmd": {"22": "0001"}, "freq": 0.5, "dbgfilter": { "from": 2007, "to": 2014 },
+  "signals": [
+    {"id": "C_CLASS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]}
 ]
 }
