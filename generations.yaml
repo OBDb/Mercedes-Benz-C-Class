@@ -1,0 +1,24 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class"
+
+generations:
+  - name: "W202"
+    start_year: 1993
+    end_year: 2000
+    description: "The first C-Class, replacing the 190E, as a sedan and estate."
+  - name: "W203"
+    start_year: 2001
+    end_year: 2007
+    description: "Second generation, adding a hatchback coupe; CDI diesels and supercharged Kompressor four-cylinders alongside V6 engines."
+  - name: "W204"
+    start_year: 2008
+    end_year: 2014
+    description: "Third generation. The C300 and C350 used the M272 V6 and the 7G-Tronic automatic in North America; Europe added BlueEFFICIENCY four-cylinders and CDI diesels."
+  - name: "W205"
+    start_year: 2015
+    end_year: 2021
+    description: "Fourth generation on the MRA platform, with turbocharged four-cylinders, the 9G-Tronic automatic and a C350e plug-in hybrid."
+  - name: "W206"
+    start_year: 2022
+    end_year: null
+    description: "Fifth generation, four-cylinder only with 48 V mild hybrid assistance and plug-in hybrid variants."
