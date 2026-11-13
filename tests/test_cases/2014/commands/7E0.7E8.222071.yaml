@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.222071
 test_cases:
 - expected_values:
+    CCLASS_FUEL_RAIL_P: 738.80801
+  response: 7E80562207105C6
+- expected_values:
+    CCLASS_FUEL_RAIL_P: 806.79034
+  response: 7E805622071064E
+- expected_values:
     CCLASS_FUEL_RAIL_P: 875.27255
   response: 7E80562207106D7
 - expected_values:
