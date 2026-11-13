@@ -25,7 +25,7 @@
   "signals": [
     {"id": "CCLASS_RADIATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 55327, "mul": 27, "div": 32, "add": 32, "unit": "fahrenheit" }, "name": "Radiator temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2030"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2030"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "CCLASS_FUEL_TANK_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 6549, "mul": 0.099934824, "unit": "liters" }, "name": "Fuel tank level"}
   ]},
@@ -33,7 +33,7 @@
   "signals": [
     {"id": "CCLASS_FUEL_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 32758, "mul": 0.4998701, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2095"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2095"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "CCLASS_EOT", "path": "Engine", "fmt": { "len": 8, "max": 290, "min": -54, "mul": 27, "div": 20, "add": -54, "unit": "fahrenheit" }, "name": "Engine oil temperature"}
   ]},
