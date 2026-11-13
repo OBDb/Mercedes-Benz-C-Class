@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0163"}, "freq": 5,
   "signals": [
     {"id": "CCLASS_BOOST_AIR_T", "path": "Engine", "fmt": {"bix": 48,  "len": 16, "max": 6280,  "min": -273,   "div": 10, "add": -273.1,               "unit": "celsius" }, "name": "Boost air temperature"},
@@ -17,7 +21,7 @@
   "signals": [
     {"id": "CCLASS_FUEL_T", "path": "Fuel", "fmt": {"bix": 128, "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2017"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2017"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "CCLASS_RADIATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 55327, "mul": 27, "div": 32, "add": 32, "unit": "fahrenheit" }, "name": "Radiator temperature"}
   ]},
@@ -25,7 +29,7 @@
   "signals": [
     {"id": "CCLASS_FUEL_TANK_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 6549, "mul": 0.099934824, "unit": "liters" }, "name": "Fuel tank level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2071"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2071"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "CCLASS_FUEL_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 32758, "mul": 0.4998701, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
   ]},
@@ -51,14 +55,14 @@
   "signals": [
     {"id": "CCLASS_ATF_T_VAR_4", "path": "Transmission", "fmt": {"bix": 24, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 4"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "proto": "15765-4-11bit", "cmd": {"22": "2001"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E2", "rax": "7EA", "proto": "15765-4-11bit", "cmd": {"22": "2001"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "CCLASS_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "CCLASS_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "CCLASS_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "CCLASS_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "proto": "15765-4-11bit", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E2", "rax": "7EA", "proto": "15765-4-11bit", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2020 },
   "signals": [
     {"id": "CCLASS_LON_ACC",        "path": "Orientation", "fmt": {"bix": 8,   "len": 16, "max": 1.63,   "min": -1.63,                  "div": 20000,       "sign": true, "unit": "gravity" }, "name": "Longitudinal acceleration"},
     {"id": "CCLASS_LAT_ACC",        "path": "Orientation", "fmt": {"bix": 24,  "len": 16, "max": 511,    "min": -512,    "mul": 15.625, "div": 1000,        "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"},
