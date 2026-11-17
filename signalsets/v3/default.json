@@ -3,6 +3,10 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
+{ "hdr": "60A", "rax": "481", "dbg": true, "cmd": {"22": "0001"}, "freq": 30,
+  "signals": [
+    {"id": "CCLASS_ODO_IC", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0163"}, "freq": 5,
   "signals": [
     {"id": "CCLASS_BOOST_AIR_T", "path": "Engine", "fmt": {"bix": 48,  "len": 16, "max": 6280,  "min": -273,   "div": 10, "add": -273.1,               "unit": "celsius" }, "name": "Boost air temperature"},
